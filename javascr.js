@@ -65,35 +65,51 @@ console.log(sum);
 */
 
 //UZDUOTIS PIRMA - trecio masyvo elemento atspausdinimas konsoleje.
-let numbers = ["Vienas", "Du", "Trys", "Keturi", "Penki"]
+/*let numbers = ["Vienas", "Du", "Trys", "Keturi", "Penki"]
 console.log(numbers[2]);
 numbers[4] = "burokelis";
 console.log(numbers[4]);
 console.log(numbers.length);
-
+*/
 //uzduoris du - masyvas pavadinimu ' months' atspausdinti visus elementis naudojant FOR CIKLA
-let months = ["Sausis", "Vasaris", "Kovas", "Balandis", "ir t.t."]
+/*let months = ["Sausis", "Vasaris", "Kovas", "Balandis", "ir t.t."]
 for(const elementas of months) {
     console.log(elementas);
 }
-
+*/
 //UZDUOTIS NR 3 - prie kiekvieno masyvo pridet skaiciuka 5 (ne tik rasant i consol)
-let numberss = [1, 6, 15, 3]
+/*let numberss = [1, 6, 15, 3]
 
     for(let i=0; i<numberss.length; i++) {
         numberss[i]+=5;
         console.log(numberss[i]);
     }
     console.log(numberss);
-
+*/
 // uzduotis nr 4 - 
 
 let numbers9 = [1, 6, 15, 3, 7, 12]
 let sum = 0;
 
-for(let i=0; i<numbers9.length; i++){
+/*for(let i=0; i<numbers9.length; i++){
     sum += numbers9[i];}
 
     console.log(sum);
+*/
+/*
+for(let numbers10 of numbers9){
+    console.log(`${numbers10} = ${sum + numbers10}`)
+    sum += numbers9;
+    console.log(sum);
+}
+*/
 
+//kas antra nuo galo atspausdint
 
+let masyvas5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+for(let i = (masyvas5.lenght-1); i>= 0; i = i - 2){
+    console.log(masyvas5[i]);
+}
+
+console.log(masyvas5)
