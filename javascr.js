@@ -86,4 +86,14 @@ let numberss = [1, 6, 15, 3]
     }
     console.log(numberss);
 
-    
+// uzduotis nr 4 - 
+
+let numbers9 = [1, 6, 15, 3, 7, 12]
+let sum = 0;
+
+for(let i=0; i<numbers9.length; i++){
+    sum += numbers9[i];}
+
+    console.log(sum);
+
+
